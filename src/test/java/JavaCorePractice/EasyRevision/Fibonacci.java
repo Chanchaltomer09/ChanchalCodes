@@ -9,9 +9,7 @@ public class Fibonacci {
         System.out.println("Enter Size of fibonacci");
         int size=sc.nextInt();
         printFibonacci(size);
-    }
-
-    public static void printFibonacci(int size)
+    }public static void printFibonacci(int size)
     {
         int f1=0, f2=1; int f3;
         if(size==1)

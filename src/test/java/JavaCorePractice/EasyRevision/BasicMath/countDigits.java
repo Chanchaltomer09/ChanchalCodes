@@ -1,4 +1,4 @@
-package JavaCorePractice.EasyRevision;
+package JavaCorePractice.EasyRevision.BasicMath;
 
 import java.net.StandardSocketOptions;
 import java.util.HashMap;

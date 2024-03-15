@@ -1,4 +1,4 @@
-package JavaCorePractice.EasyRevision;
+package JavaCorePractice.EasyRevision.BasicMath;
 
 public class swapWithoutThirdVariable {
 

@@ -14,6 +14,7 @@ public class PalindromUsingRec {
         } else {
             System.out.println(str + " : is not a palindrome");
         }
+
     }
 
     public static boolean isPalindrome(String str) {

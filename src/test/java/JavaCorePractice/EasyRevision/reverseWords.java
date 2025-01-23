@@ -3,19 +3,20 @@ package JavaCorePractice.EasyRevision;
 public class reverseWords {
     public static void main(String args[])
     {
-        String str = "I am John Doe";
+        String str = "I am John Doe"; // output : Doe John am I
         System.out.println(str);
         reverseWordsOfString(str);
 
     }
     public static void reverseWordsOfString(String str)
     {   String reverse="";
+        String a[]= str.split("\\s");
 
-        for(int i=0 ; i< str.length();i++)
+        for(String item : a)
         {
-            reverse = str.charAt(i)+ reverse;
+            reverse = item + " "+reverse;
         }
-        str = reverse;
+        str = reverse.trim();
         System.out.println(str);
     }
 }

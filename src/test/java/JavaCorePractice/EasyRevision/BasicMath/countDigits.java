@@ -18,30 +18,36 @@ import java.util.Map;
 
        public static void main (String args[])
        {
-           int n= 336;
+           int n= 336078;
         int rem=0,num=n, count=0;
-        Map<Integer,Integer> map = new HashMap<>();
-        while(n>0)
-        {
-            rem= n%10;
-            if(map.containsKey(rem))
-            {
-                map.put(rem,map.get(rem)+1);
-            }
-            else
-            {
-                map.put(rem,1);
-            }
-            n=n/10;
-        }
-        for(int item : map.keySet())
-        {    if(item ==0)
-        {   continue;}
-        else if(num %item==0)
-        {
-            count += map.get(item);
-        }
-        }
+//        Map<Integer,Integer> map = new HashMap<>();
+//        while(n>0)
+//        {
+//            rem= n%10;
+//            if(map.containsKey(rem))
+//            {
+//                map.put(rem,map.get(rem)+1);
+//            }
+//            else
+//            {
+//                map.put(rem,1);
+//            }
+//            n=n/10;
+//        }
+//        for(int item : map.keySet())
+//        {    if(item ==0)
+//        {   continue;}
+//        else if(num %item==0)
+//        {
+//            count += map.get(item);
+//        }
+//        }
+           while(num>0)
+           {
+               rem=num%10;
+               count++;
+               num=num/10;
+           }
         System.out.println("count ="+ count);
     }
 }

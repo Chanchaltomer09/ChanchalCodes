@@ -22,7 +22,7 @@ public class reverseANumberFromBits {
      StringBuilder reversed = input.reverse();
      String reverseBinary = new String(reversed);
 
-     // System.out.println(" Reverse Binary string "+reverseBinary);
+     //System.out.println(" Reverse Binary string "+reverseBinary);
      long reverseNbr = Long.parseLong(reverseBinary,2);
 
      System.out.println("reversed number is ="+ reverseNbr);

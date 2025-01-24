@@ -11,7 +11,7 @@ public class checkPrimeNumber {
         if(num==1)
             System.out.println("NO");
         int i=2;
-        for (i = 2; i <= Math.sqrt(num); i++)
+        for (i = 2; i *i<=num; i++)
         { if (num % i == 0)
            {System.out.println("NO");
             break;
